@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #dinu3 {
+            display: block; 
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 10px 0;
+        }
+        #dinu2 {
+            display: block; 
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            margin: 10px 0;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>JavaScript DOM Exercises</h1>
+
+    
+    <p id="dinu1">This is a paragraph.</p>
+    <button onclick="changeText()">Change Text</button>
+
+    <div id="dinu2"></div>
+    <button onclick="changeBackgroundColor()">Change Background Color</button>
+
+    <p id="dinu3">Toggle this paragraph.</p>
+    <button onclick="toggleParagraph()">Show/Hide paragraph</button>
+
+    <ul id="dinu4">
+        <li>Item 1</li>
+        <li>Item 2</li>
+    </ul>
+    <button onclick="addListItem()">Add List Item</button>
+
+  
+    <img id="dinu5" src="./FFFFFF.png" alt="Placeholder Image">
+    <button onclick="changeImageSource()">Change Image Source</button>
+
+    <button onclick="countParagraphs()">Count Paragraphs</button>
+
+    <ul id="dinu6">
+        <li>Item A</li>
+        <li>Item B</li>
+    </ul>
+    <button onclick="deleteListItem()">Delete Last Item</button>
+
+    <script src="dom.js"></script>
+</body>
+</html>
